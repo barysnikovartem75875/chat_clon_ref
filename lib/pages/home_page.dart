@@ -2,7 +2,7 @@ import 'package:clone_ref/pages/second_page.dart';
 import 'package:clone_ref/pages/thrid_page.dart';
 import 'package:flutter/material.dart';
 import 'finally_page.dart';
-import 'first_page.dart';
+// import 'first_page.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 
@@ -18,7 +18,6 @@ class HomePage extends StatelessWidget {
       body: PageView(
         controller: _controler,
         children: [
-          FirstPage(),
           SecondPage(),
           ThridPage(),
           FinallyPage(),
